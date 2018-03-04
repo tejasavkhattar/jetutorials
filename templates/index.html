@@ -1,0 +1,1158 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+<head>
+{% load static %}
+
+<meta charset="utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- title of the page -->
+
+<title>J.E. Tutorials</title>
+
+<!-- Bootstrap style sheet -->
+
+<link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+
+<!-- css style sheet -->
+
+<link id="style" rel="stylesheet" href="{% static 'css/style.css' %}">
+
+<link id="colors" rel="stylesheet" href="{% static 'css/color.css' %}">
+   
+<link rel="stylesheet" href="{% static 'css/switcher.css' %}">
+
+<link rel="stylesheet" href="{% static 'css/font-awesome.css' %}">
+
+<link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+
+<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,100i,300,300i,400,400i,500,500i,700,700i,800,800i,900,900i%2cOxygen:300,400,700" rel="stylesheet"> 
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+<!--[if lt IE 9]>
+
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+	<![endif]-->
+
+</head>
+
+<body>
+
+	<!-- main wrapper of the page -->
+
+	<div id="wrapper">
+
+		<div class="top-bar4">
+
+			<div class="container">
+
+				<div class="logo"><a href="#"><img src="{% static 'img/logo4.png' %}" width="182" height="19" alt="descipline"></a></div>
+
+				<div class="right-panel">
+
+					<form action="#">
+
+						<input type="search" placeholder="Search...">
+
+						<button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+
+					</form>
+
+					<ul class="login-list">
+
+						<li><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-sign-in" aria-hidden="true"></i>login</a></li>
+
+						<li><a href="#" data-toggle="modal" data-target="#myModal2"><i class="fa fa-user-plus" aria-hidden="true"></i>register</a></li>
+
+					</ul>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		
+
+		<header id="header2" class="header4 header-yellow">
+
+			<nav class="navbar navbar-default">
+
+				<div class="container-fluid">
+
+					<!-- Brand and toggle get grouped for better mobile display -->
+
+					<div class="navbar-header">
+
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+							<span class="sr-only">Toggle navigation</span>
+
+							<span class="icon-bar"></span>
+
+							<span class="icon-bar"></span>
+
+							<span class="icon-bar"></span>
+
+						</button>
+
+					</div>
+
+
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+						<ul class="nav navbar-nav">
+
+							<li class="active"><a href="#">home</a>
+							</li>
+
+							<li><a href="/courses/">courses</a></li>
+
+							<li><a href="/about/">about</a></li>
+
+							<li><a href="/contact/">contact</a></li>
+
+							
+
+							
+
+						</ul>
+
+					</div><!-- /.navbar-collapse -->
+
+				</div><!-- /.container-fluid -->
+
+			</nav>
+
+			
+
+			<div class="tel home layer"><i class="fa fa-phone" aria-hidden="true"></i><a href="#">(+91)-9891061107</a></div>
+
+			
+
+		</header>
+
+		
+
+		<div class="justics-holder">
+
+			<div id="carousel-example-generic102" class="carousel slide" data-ride="carousel">
+
+				
+				<!-- Wrapper for slides -->
+
+				<div class="carousel-inner" role="listbox">
+
+					<div class="item active">
+
+						<div class="justices-img">
+
+							<img src="{% static 'img/img-54.jpg' %}" width="1920" height="1060" alt="image" class="img">
+
+							<div class="justics-text">
+
+								<div class="txt">
+
+									<h1>INTELLIGENCE PLUS CHARACTER THAT IS 
+
+										THE GOAL OF TRUE EDUCATION</h1>
+
+									<a class="more courses" href="#">view courses</a>
+
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="item">
+
+						<div class="justices-img">
+
+							<img src="{% static 'img/thumbs-up.jpg' %}" width="1920" height="1060" alt="image" class="img">
+
+							<div class="justics-text">
+
+								<div class="txt">
+
+									<h1>INTELLIGENCE PLUS CHARACTER THAT IS 
+
+			THE GOAL OF TRUE EDUCATION</h1>
+
+									<a class="more courses" href="#">view courses</a>
+
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="item">
+
+						<div class="justices-img">
+
+							<img src="{% static 'img/img-54.jpg' %}" width="1920" height="1060" alt="image" class="img">
+
+							<div class="justics-text">
+
+								<div class="txt">
+
+									<h1>INTELLIGENCE PLUS CHARACTER THAT IS 
+
+										THE GOAL OF TRUE EDUCATION</h1>
+
+									<a class="more courses" href="#">view courses</a>
+
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<!-- Controls -->
+
+				<a class="left carousel-control prev-2" href="#carousel-example-generic102" role="button" data-slide="prev">
+
+					<span><i class="fa fa-angle-left" aria-hidden="true"></i></span>
+
+					<span class="sr-only">Previous</span>
+
+				</a>
+
+				<a class="right carousel-control next-2" href="#carousel-example-generic102" role="button" data-slide="next">
+
+					<span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+
+					<span class="sr-only">Next</span>
+
+				</a>
+
+			</div>
+
+		</div>
+
+		
+
+		<div class="page-section white yellow">
+
+			<div class="container">
+
+				<div class="welcome yellow welcome-top-minus">
+
+					<div class="row">
+
+						<div class="col-sm-4 col-xs-12 yellow">
+
+							<div class="column yellow-1">
+
+								<div class="img-holder">
+
+									<i class="icon-anchor"></i>
+
+								</div>
+
+								<span class="title">WHO WE ARE</span>
+
+								<p>At JE, the faculty and students can explain and expand the frontiers of knowledge with latest teaching methodology.</p>
+								
+
+							</div>
+
+						</div>
+
+						<div class="col-sm-4 col-xs-12 yellow">
+
+							<div class="column yellow-2">
+
+								<div class="img-holder">
+
+									<i class="icon-hourglass"></i>
+
+								</div>
+
+								<span class="title">our mission</span>
+
+								<p>Our endeavour is to prepare students who are equipped to excel at their respective levels.</p>
+
+								
+
+							</div>
+
+						</div>
+
+						<div class="col-sm-4 col-xs-12 yellow">
+
+							<div class="column yellow-3">
+
+								<div class="img-holder">
+
+									<i class="icon-rocket"></i>
+
+								</div>
+
+								<span class="title">our vission</span>
+
+								<p>At JE we focus on each and every student to bring out their full potential and empower them with a winning attitude.</p>
+
+								
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="row">
+
+						<div class="welcome-d col-sm-8 col-xs-12">
+
+							<h1>WELCOME TO JOINT EFFORT TUTORIALS</h1>
+
+							<p>At JE, the core faculty comprises distinguished academicians. In addition to the permanent faculty, leading professionals from various academic fields interact regularly with the students giving them different insights into the subject. They encourage students to look beyond the books and explore the subjects with experiential learning.</p>
+
+							<p>The flipper lives in a world full of wonder under the clouds away full of wonder under the clouds away never thought could feel so free and you know where you were then girls were girls and men were men mister we could use a man like Herbert Hoover again and we know Flipper lives in a world full of wonder flying there-under under the sea they are creepy.</p>
+
+							
+
+						</div>
+
+						<div class="col-sm-4 col-xs-12 welcome-img">
+
+							<img src="{% static 'img/img-56.jpg' %}" width="448" height="428" alt="image">
+
+						</div>
+
+					</div>
+
+					<div class="row">
+
+						<div class="col-xs-12">
+
+							<ul class="w-list">
+
+								<li>
+
+									<span class="count-1">started</span>
+
+									<em class="one"></em>
+
+									<span class="count-2">1989</span>
+
+								</li>
+
+								<li>
+
+									<span class="count-3">2000</span>
+
+									<em class="two"></em>
+
+									<span class="count-4">Over 3000+ STUDENTS</span>
+
+								</li>
+
+								<li>
+
+									<span class="count-1">20+ UNIVERSITIES</span>
+
+									<em class="one"></em>
+
+									<span class="count-2">2010</span>
+
+								</li>
+
+								<li>
+
+									<span class="count-3">2016</span>
+
+									<em class="two"></em>
+
+									<span class="count-4">BEST UNIVERSITY AWARD</span>
+
+								</li>
+
+							</ul>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+						
+        
+		<div class="page-section black">
+
+			<div class="our-clients black">
+
+				<div class="container">
+
+					<div class="row">			
+
+						<div class="col-xs-12 heading-area">
+
+							<h1>WHAT OUR CLIENT SAYS</h1>
+
+							<p>The others comfortable these days are all happy and free listen to a story</p>
+
+						</div>
+
+						<div id="carousel-example-generic231" class="carousel slide" data-ride="carousel">
+
+							
+
+	
+
+							<!-- Wrapper for slides -->
+
+							<div class="carousel-inner" role="listbox">
+
+								<div class="item active">
+
+									<blockquote>
+
+										<div class="row">
+
+											<div class="col-sm-8 col-sm-offset-2">
+
+											<div class="block-img"><img src="{% static 'img/img-42.png' %}" width="90"  height="90" alt="image"></div>
+
+												<i class="fa fa-quote-left bg-img" aria-hidden="true"></i>
+
+												<p>The others comfortable these days are all happy and free listen to a story now the world do not move to the beat of just one drum what might be right for you may not be story of a man</p>
+
+												<small><strong>MR.BAILEY PETER</strong> - Designer</small>
+
+											</div>
+
+										</div>
+
+									</blockquote>
+
+								</div>
+
+								<div class="item">
+
+									<blockquote>
+
+										<div class="row">
+
+											<div class="col-sm-8 col-sm-offset-2">
+
+											<div class="block-img"><img src="{% static 'img/img-42.png' %}" width="90"  height="90" alt="image"></div>
+
+												<i class="fa fa-quote-left bg-img" aria-hidden="true"></i>
+
+												<p>The others comfortable these days are all happy and free listen to a story now the world do not move to the beat of just one drum what might be right for you may not be story of a man</p>
+
+												<small><strong>MR.BAILEY PETER</strong> - Designer</small>
+
+											</div>
+
+										</div>
+
+									</blockquote>
+
+								</div>
+
+								<div class="item">
+
+									<blockquote>
+
+										<div class="row">
+
+											<div class="col-sm-8 col-sm-offset-2">
+
+											<div class="block-img"><img src="{% static 'img/img-42.png' %}" width="90"  height="90" alt="image"></div>
+
+												<i class="fa fa-quote-left bg-img" aria-hidden="true"></i>
+
+												<p>The others comfortable these days are all happy and free listen to a story now the world do not move to the beat of just one drum what might be right for you may not be story of a man</p>
+
+												<small><strong>MR.BAILEY PETER</strong> - Designer</small>
+
+											</div>
+
+										</div>
+
+									</blockquote>
+
+								</div>
+
+							</div>
+
+							<!-- Indicators -->
+
+							<ol class="carousel-indicators">
+
+								<li data-target="#carousel-example-generic231" data-slide-to="0" class="active"></li>
+
+								<li data-target="#carousel-example-generic231" data-slide-to="1"></li>
+
+								<li data-target="#carousel-example-generic231" data-slide-to="2"></li>
+
+							</ol>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		
+
+		<div class="page-section white">
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="w-choose">
+
+						<div class="col-md-4 col-sm-12 col-xs-12 pull-right w-choose-image">
+
+							<img src="{% static 'img/img-65.png' %}" width="373" height="569" alt="image">
+
+							
+
+						</div>
+
+						<div class="col-md-8 col-sm-12 col-xs-12">
+
+							<div class="heading-area">
+
+								<h1>WHY CHOOSE US</h1>
+
+								<p></p>
+
+							</div>
+
+							<div class="row">
+
+								<div class="col-md-4 col-sm-6 col-xs-12">
+
+									<div class="w-column">
+
+										<div class="img-box">
+
+											<img src="{% static 'img/icon-230.png' %}" width="60" height="67" alt="image">	
+
+										</div>
+
+										<span>CERTIFIED COURSES</span>
+
+										<p></p>
+
+									</div>
+
+								</div>
+
+								<div class="col-md-4 col-sm-6 col-xs-12">
+
+									<div class="w-column">
+
+										<div class="img-box">
+
+											<img src="{% static 'img/icon-231.png' %}" width="60" height="67" alt="image">	
+
+										</div>
+
+										<span>ONLINE E-BOOKS</span>
+
+										<p></p>
+
+									</div>
+
+								</div>
+
+								<div class="col-md-4 col-sm-6 col-xs-12">
+
+									<div class="w-column">
+
+										<div class="img-box">
+
+											<img src="{% static 'img/icon-232.png' %}" width="60" height="67" alt="image">	
+
+										</div>
+
+										<span>FREE UPDATES & SUPPORT</span>
+
+										<p></p>
+
+									</div>
+
+								</div>
+
+								<div class="col-md-4 col-sm-6 col-xs-12">
+
+									<div class="w-column">
+
+										<div class="img-box">
+
+											<img src="{% static 'img/icon-233.png' %}" width="60" height="67" alt="image">	
+
+										</div>
+
+										<span>REFUND IF NOT SATISFY</span>
+
+										<p></p>
+
+									</div>
+
+								</div>
+
+								<div class="col-md-4 col-sm-6 col-xs-12">
+
+									<div class="w-column">
+
+										<div class="img-box">
+
+											<img src="{% static 'img/icon-234.png' %}" width="60" height="67" alt="image">	
+
+										</div>
+
+										<span>EXPERIENCED FACULTY</span>
+
+										<p></p>
+
+									</div>
+
+								</div>
+
+								<div class="col-md-4 col-sm-6 col-xs-12">
+
+									<div class="w-column">
+
+										<div class="img-box">
+
+											<img src="{% static 'img/icon-235.png' %}" width="60" height="67" alt="image">	
+										</div>
+
+										<span>GUARANTEED CAREER</span>
+
+										<p></p>
+
+									</div>
+
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+			
+
+
+		
+
+<!-- 		<div class="page-section white">
+
+			<div class="container">
+
+				<div class="row">
+
+					<div class="latest-news post yellow">
+
+						<div class="col-xs-12 heading-holder">
+
+							<h1>our latest news</h1>
+
+							<p>The others comfortable these days are all happy and free listen to a story </p>
+
+						</div>
+
+						<div class="row">
+
+							<div class="col-sm-4 col-xs-12">
+
+								<div class="img-holder">
+
+									<img src="{% static 'img/img-68.jpg' %}" width="370" height="300" alt="image">
+
+									<span class="date">
+
+										July 26, 2016
+
+									</span>
+
+								</div>
+
+								<div class="news-text">
+
+									<span class="title">may not be ENROLE the end</span>
+
+									<ul class="admin-list">
+
+										<li><a href="#"><i class="fa fa-user" aria-hidden="true"></i>by Admin</a></li>
+
+										<li><a href="#"><i class="fa fa-commenting-o" aria-hidden="true"></i>08 Comments</a></li>
+
+									</ul>
+
+									<p>The pie and we know flipper lives flying there under in a old full of wonder under the sweeping the flying there under clouds.</p>
+
+									<a class="more" href="#">read more <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+
+								</div>
+
+							</div>
+
+							<div class="col-sm-4 col-xs-12">
+
+								<div class="img-holder">
+
+									<img src="{% static 'img/img-69.jpg' %}" width="370" height="300" alt="image">
+
+									<span class="date">
+
+										June 09, 2016
+
+									</span>
+
+								</div>
+
+								<div class="news-text">
+
+									<span class="title">may not be ENROLE</span>
+
+									<ul class="admin-list">
+
+										<li><a href="#"><i class="fa fa-user" aria-hidden="true"></i>by Admin</a></li>
+
+										<li><a href="#"><i class="fa fa-commenting-o" aria-hidden="true"></i>17 Comments</a></li>
+
+									</ul>
+
+									<p>The pie and we know flipper lives flying there under in a old full of wonder under the sweeping the flying there under clouds.</p>
+
+									<a class="more" href="#">read more <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+
+								</div>
+
+							</div>
+
+							<div class="col-sm-4 col-xs-12">
+
+								<div class="img-holder">
+
+									<img src="{% static 'img/img-70.jpg' %}" width="370" height="300" alt="image">
+
+									<span class="date">
+
+										May 12, 2016
+
+									</span>
+
+								</div>
+
+								<div class="news-text">
+
+									<span class="title">may not be ENROLE</span>
+
+									<ul class="admin-list">
+
+										<li><a href="#"><i class="fa fa-user" aria-hidden="true"></i>by Admin</a></li>
+
+										<li><a href="#"><i class="fa fa-commenting-o" aria-hidden="true"></i>22 Comments</a></li>
+
+									</ul>
+
+									<p>The pie and we know flipper lives flying there under in a old full of wonder under the sweeping the flying there under clouds.</p>
+
+									<a class="more" href="#">read more <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="row">
+
+							<a class="view" href="#">view all</a>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div> -->
+
+		
+
+
+		
+
+<footer id="footer-2">
+			<div class="container">
+				<div class="row">
+					<div class="column_1">
+						<div class="logo"><a href="#"><img src="images/logo-4.png" width="174" height="19" alt="descipline"></a></div>
+						<p>At J.E. we focus on each and every student to bring out their potential and empower them with a winning attitude.</p>
+						<ul class="footer-social">
+							<li><a href="https://www.facebook.com/Jetutorials/?ref=br_rs"><i aria-hidden="true" class="fa fa-facebook"></i></a></li>
+							<!-- <li><a href="#"><i aria-hidden="true" class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i aria-hidden="true" class="fa fa-linkedin"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> -->
+							<li><a href="https://plus.google.com/u/1/103344821805213470723"><i aria-hidden="true" class="fa fa-google-plus"></i></a></li>
+						</ul>
+					</div>
+				
+					<div class="column_3">
+						<span class="heading">contact us</span>
+						<span class="address">
+							<i class="fa fa-map-marker" aria-hidden="true"></i>
+							5/30 Second Floor, Subhash Nagar, New Delhi : 110027
+						</span>
+						<span class="tel">
+							<i class="fa fa-phone" aria-hidden="true"></i>
+							<a href="#">+91 9891061107</a>
+							<a href="#">+91 9811243177</a>
+						</span>
+						<span class="mail">
+							<i class="fa fa-envelope-o" aria-hidden="true"></i>
+							<a href="#">jetutorialshelp@gmail.com</a>
+							
+						</span>
+					</div>
+					<div class="column_4">
+						<span class="heading">get in touch</span>
+						<form class="touch-form" action="#">
+							<input type="text" placeholder="Name">
+							<input type="email" placeholder="Email">
+							<button type="submit">send message</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	
+
+		<div class="bottom-footer inner">
+
+			<span>&copy; Copyrights 2017 J.E. Tutorials. All Rights Reserved</span>
+
+		</div>
+
+		
+
+	</div>
+
+
+
+
+
+	<!-- Modal -->
+
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+	  <div class="modal-dialog yellow" role="document">
+
+	    <div class="modal-content">
+
+	      <div class="modal-header">
+
+	        <button type="button" class="close yellow" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+	        <h4 class="modal-title form" id="myModalLabel">signin</h4>
+
+	      </div>
+
+	      <div class="modal-body">
+
+	    	<div class="main-login main-center yellow">
+
+
+
+				<form class="" method="post" action="#">
+
+
+
+					<div class="form-group">
+
+						<label for="email" class="cols-sm-2 control-label">Your Email</label>
+
+						<div class="cols-sm-10">
+
+							<div class="input-group">
+
+								<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+
+								<input type="text" class="form-control" name="email" id="email"  placeholder="Enter your Email"/>
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+
+					<div class="form-group">
+
+						<label for="password" class="cols-sm-2 control-label">Password</label>
+
+						<div class="cols-sm-10">
+
+							<div class="input-group">
+
+								<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+
+								<input type="password" class="form-control" name="password" id="password"  placeholder="Enter your Password"/>
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+
+					<div class="form-group ">
+
+						<a href="#" target="_blank" id="button" class="btn btn-primary btn-lg btn-block login-button">Signin</a>
+
+					</div>
+
+
+
+					<div class="form-group ">
+
+						<p>Already have an account! <a href="#">Sign In Here</a> </p>
+
+					</div>
+
+					
+
+				</form>
+
+			</div>
+
+	      </div>
+
+	      
+
+	    </div>
+
+	  </div>
+
+	</div>
+
+	<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+	  <div class="modal-dialog yellow" role="document">
+
+	    <div class="modal-content">
+
+	      <div class="modal-header">
+
+	        <button type="button" class="close yellow" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+	        <h4 class="modal-title form" id="myModalLabel2">signup</h4>
+
+	      </div>
+
+	      <div class="modal-body">
+
+	    	<div class="main-login main-center yellow">
+
+				<form class="" method="post" action="#">
+
+					
+
+					<div class="form-group">
+
+						<label for="name" class="cols-sm-2 control-label">Your Name</label>
+
+						<div class="cols-sm-10">
+
+							<div class="input-group">
+
+								<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+
+								<input type="text" class="form-control" name="name" id="name"  placeholder="Enter your Name"/>
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+
+					<div class="form-group">
+
+						<label for="email2" class="cols-sm-2 control-label">Your Email</label>
+
+						<div class="cols-sm-10">
+
+							<div class="input-group">
+
+								<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+
+								<input type="text" class="form-control" name="email" id="email2"  placeholder="Enter your Email"/>
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+
+					<div class="form-group">
+
+						<label for="username" class="cols-sm-2 control-label">Username</label>
+
+						<div class="cols-sm-10">
+
+							<div class="input-group">
+
+								<span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+
+								<input type="text" class="form-control" name="username" id="username"  placeholder="Enter your Username"/>
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+
+					<div class="form-group">
+
+						<label for="password2" class="cols-sm-2 control-label">Password</label>
+
+						<div class="cols-sm-10">
+
+							<div class="input-group">
+
+								<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+
+								<input type="password" class="form-control" name="password" id="password2"  placeholder="Enter your Password"/>
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+
+					<div class="form-group">
+
+						<label for="confirm" class="cols-sm-2 control-label">Confirm Password</label>
+
+						<div class="cols-sm-10">
+
+							<div class="input-group">
+
+								<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+
+								<input type="password" class="form-control" name="confirm" id="confirm"  placeholder="Confirm your Password"/>
+
+							</div>
+
+						</div>
+
+					</div>
+
+
+
+					<div class="form-group ">
+
+						<a href="#" target="_blank" id="button2" class="btn btn-primary btn-lg btn-block login-button">Signup</a>
+
+					</div>
+
+
+
+					<div class="form-group ">
+
+						<p>Dont have an account! <a href="#">Sign Up Here</a> </p>
+
+					</div>
+
+					
+
+				</form>
+
+			</div>
+
+	      </div>
+
+	      
+
+	    </div>
+
+	  </div>
+
+	</div>
+
+
+
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+	<script  type="text/javascript" src="{% static 'js/jquery.min.js' %}"></script>
+
+	<script  type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+
+	<script  type="text/javascript" src="{% static 'js/owl.carousel.min.js' %}"></script>
+
+	<script  type="text/javascript" src="{% static 'js/switcher.js' %}"></script>
+
+	<script  type="text/javascript" src="{% static 'js/custom.js' %}"></script>		
+
+
+
+	
+
+	</body>
+
+
+<!-- Mirrored from oxothemes.com/education/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 28 Aug 2017 09:06:51 GMT -->
+</html>
